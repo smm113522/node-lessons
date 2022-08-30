@@ -12,7 +12,7 @@ app.get('/get', function (req, res) {
         host : 'localhost',
         user : 'root',
         password : '123456',
-        database : 'demo'
+        database : 'test'
     });
     connection.connect();
     connection.query('SELECT 1 + 1 AS solution', function (error, results, fields) {
@@ -26,5 +26,5 @@ app.get('/get', function (req, res) {
 var server = app.listen(8082, function () {
     var host = server.address().address
     var port = server.address().port
-    console.log("应用实例，访问地址为 http://%s:%s", host, port)
+    console.log("应用实例，访问地址为 http://localhost:8082", host, port)
 })

@@ -4,3 +4,8 @@ node_modules
 coverage
 /**/package-lock.json
 /**/**/package-lock.json
+lesson24/orm.js
+.idea/workspace.xml
+.idea
+.idea/
+./.idea
