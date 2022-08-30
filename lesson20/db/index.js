@@ -1,5 +1,5 @@
 var sqlite3 = require('sqlite3')
-var db = new sqlite3.Database('test.db')
+var db = new sqlite3.Database('./test.db')
  
 //执行sql语句
 const runSql = async (sql) => {

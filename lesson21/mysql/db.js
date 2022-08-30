@@ -1,6 +1,6 @@
 // db.js 
 const mysql = require('mysql');
-const dbConfig = require('db.config');
+const dbConfig = require('./db.config');
 
 module.exports = {
     query: function(sql, params, callback) {
