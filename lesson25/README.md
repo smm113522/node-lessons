@@ -26,3 +26,9 @@ npm start     运行项目
  
 
  npm install ejs --save
+
+ // 方法 2: 分别传递参数 (sqlite)
+const sequelize = new Sequelize({
+  dialect: 'sqlite',
+  storage: 'path/to/database.sqlite'
+});
