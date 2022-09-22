@@ -9,3 +9,6 @@ lesson24/orm.js
 .idea
 .idea/
 ./.idea
+./*.iml
+/**/**/*.iml
+/**/**/.idea
